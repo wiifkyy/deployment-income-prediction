@@ -1,11 +1,11 @@
 '''
-Materi Dr. Eng. Farrikh Alzami, M.Kom - Universitas Dian Nuswantoro
+A11.2021.13855 Wifky Zaenudin Azis - Universitas Dian Nuswantoro
 '''
 import streamlit as st
 
 # Page configuration - MUST be first Streamlit command
 st.set_page_config(
-    page_title="Income Prediction App - Materi Dr.Eng. Farrikh Alzami, M.Kom",
+    page_title="Income Prediction App - A11.2021.13855 - Wifky Zaenudin Azis",
     page_icon="💰",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -152,7 +152,7 @@ native_country_options = ['United-States', 'Cuba', 'Jamaica', 'India', 'Mexico',
                          'Nicaragua', 'Vietnam', 'Hong', 'Ireland', 'Hungary', 'Holand-Netherlands']
 
 # Main app
-st.title("💰 Income Prediction App - Dr. Eng. Farrikh Alzami, M.Kom")
+st.title("💰 Income Prediction App - A11.2021.13855 - Wifky Zaenudin Azis")
 st.markdown("Predict whether income exceeds $50K/year based on demographic data")
 
 # Create two columns for layout
@@ -357,4 +357,4 @@ if export_button:
 
 # Footer
 st.markdown("---")
-st.markdown("*Built with Streamlit • Dr. Eng. Farrikh Alzami, M.Kom*")
+st.markdown("*Built with Streamlit • A11.2021.13855 - Wifky Zaenudin Azis*")
